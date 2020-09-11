@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<title>PEDRO</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="formularios.css" />				
+		<div id="content" />
+
+	</head>
+	<body>
+		<form action="validacao.php" method="POST">
+				<label for="nome">Nome:</Label>
+				<input id="nome" type="text" placeholder="Digite o seu nome" name="nome"   />
+				<label for="sobrenome">Sobrenome:</label>
+				<input id="sobrenome" type="text" placeholder="Digite o seu Sobrenome" name="nobrenome" />
+				<label for="rg">RG:</Label>
+				<input id="rg" type="number" placeholder="Digite o seu RG" name="RG"   />
+				<label for="cpf">CPF</label>
+				<input id="cpf" type="text" placeholder="Digite o seu CPF" name="CPF"  />
+			
+				<input type="submit" onclick="pergunta()" value="Enviar" />
+				
+					<script language="JavaScript">
+							function pergunta(){
+								if (confirm('Tem certeza que quer enviar este formulário?')){
+									document.seuformulario.submit()
+								}
+							}
+					</script>
+		</form>
+			<span>&copy; 2020 - PEDRO</span>	
+	</body>
+
+</html>
+		

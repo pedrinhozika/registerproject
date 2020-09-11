@@ -1,0 +1,73 @@
+label, input[type=submit]{
+	display: block;
+}	
+
+
+ label, input{
+	 font-size: 15px;
+ } 
+	
+ label{
+	 font-family: tahoma;
+ }
+ 
+ input{	
+	background: orange
+	
+ }
+ input[type=submit]{
+	 background: yellow
+	 
+ }
+ 
+ input[type=submit]:hover{
+	 background: red;
+ }
+
+ }
+ input[type=text]{
+	 font-size: 20px;
+ }
+ 
+
+ body{
+	 
+ }
+
+ 
+ #content{
+border:2px solid black;
+padding:10px;
+float:left;
+margin-top:20px;
+margin-left: 20px;
+background: gray;
+ 
+ }
+ 
+ .profissao{
+	 float: right;
+	 	 
+ }
+
+ head h1{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ 
+ 
+ 
+
+
+			
+
+
+
+
+
+
+
+	 
+
+  
+  
+
